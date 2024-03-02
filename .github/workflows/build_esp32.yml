@@ -67,7 +67,7 @@ jobs:
           pip3 install Pillow
           pip3 install Wave
 
-          echo "Regenerating microlite/tfm directory"
+          echo "Regenerating microlite/tfm directory"  
           rm -rf ./micropython-modules/microlite/tflm
 
           cd ./tensorflow
